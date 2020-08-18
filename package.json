@@ -1,0 +1,36 @@
+{
+  "name": "@vetixy/circular-std",
+  "version": "1.0.0",
+  "description": "The easiest wayu to add Circular Std into your project",
+  "main": "dist/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc src/index.less dist/index.css",
+    "build:minified": "lessc --compress src/index.less dist/index.min.css"
+  },
+  "files": [
+    "dist",
+    "OFL.txt",
+    "fonts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vetixy/circular-std.git"
+  },
+  "keywords": [
+    "circular-std",
+    "circular",
+    "font",
+    "css",
+    "npm"
+  ],
+  "author": "Ahmed Tarek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vetixy/circular-std/issues"
+  },
+  "homepage": "https://github.com/Vetixy/circular-std#readme",
+  "devDependencies": {
+    "less": "^3.10.3"
+  }
+}
